@@ -1,0 +1,45 @@
+.movieCard {
+  position: relative;
+  cursor: pointer;
+  border-radius: 20px;
+  overflow: hidden;
+  outline: 1px solid var(--rtc-color-4);
+  transition: transform 0.5s;
+}
+
+.movieCard:hover {
+  transform: scale(1.3);
+  outline: 5px solid var(--rtc-color-4);
+  z-index: 1;
+}
+
+.movieCard > .description {
+  height: 0px;
+  background-color: rgba(128, 128, 128, 0.414);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  transition: all 0.5s;
+}
+.movieCard:hover > .description {
+  height: 100%;
+}
+.movieCard p {
+  width: 90%;
+  font-weight: lighter;
+}
+.movieCard > .imgWrp {
+  width: 250px;
+  height: 400px;
+}
+
+.movieCard > .imgWrp > img {
+  width: 250px;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50%;
+}

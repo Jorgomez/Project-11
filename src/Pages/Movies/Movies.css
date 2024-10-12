@@ -1,0 +1,15 @@
+.movies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 25px 0px 0px 0px;
+  min-height: 90svh;
+  position: relative;
+}
+
+/* 
+.movies.link {
+  width: min-content;
+} */

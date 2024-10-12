@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Nanum+Gothic:wght@400;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Jost', sans-serif;
+  font-optical-sizing: auto;
+
+  color: var(--rtc-color-2);
+}
+
+:root {
+  --rtc-color-1: #000000;
+  --rtc-color-2: #ffffff;
+  --rtc-color-3: #ffc0cb;
+  --rtc-color-4: #0077e677;
+}
+
+body {
+  background-color: var(--rtc-color-1);
+  background-image: url('https://res.cloudinary.com/digcf0lad/image/upload/v1727100757/project10/posters/ivjphgl7s2kciavpiiyx.jpg');
+  background-size: cover;
+
+  background-position: center;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+body::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+header,
+footer {
+  position: relative;
+  z-index: 2;
+}

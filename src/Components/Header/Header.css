@@ -1,0 +1,45 @@
+.active {
+  border-bottom: 1px solid var(--rtc-color-4);
+}
+header {
+  height: 10svh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  width: 100%;
+  /* border: 1px solid; */
+}
+
+.logo {
+  padding-left: 10px;
+}
+
+header nav {
+  width: 85%;
+}
+
+header ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+  font-size: 20px;
+}
+.genre {
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  header nav {
+    width: 70%;
+    justify-content: space-evenly;
+  }
+
+  header ul {
+    font-size: 15px;
+  }
+  .logo {
+    width: 40px;
+  }
+}
