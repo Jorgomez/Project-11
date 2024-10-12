@@ -3,8 +3,9 @@ import './Movies.css'
 import { MovieCard } from '../../Components/MovieCard/MovieCard'
 import { Pagination } from '../../Components/Pagination/Pagination'
 import { Link } from 'react-router-dom'
-import { Loading } from '../../Components/Loading/lOADING.JSX'
+
 import { fetchGenerator } from '../../utils/API/fetchGenerator'
+import { Loading } from '../../Components/Loading/Loading'
 
 export const Movies = () => {
   const [movies, setMovies] = useState([])

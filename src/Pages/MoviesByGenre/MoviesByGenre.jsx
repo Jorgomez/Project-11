@@ -4,7 +4,7 @@ import { MovieCard } from '../../Components/MovieCard/MovieCard'
 import { Pagination } from '../../Components/Pagination/Pagination'
 import { fetchGenerator } from '../../utils/API/fetchGenerator'
 import './MoviesByGenre.css'
-import { Loading } from '../../Components/Loading/lOADING.JSX'
+import { Loading } from '../../Components/Loading/Loading'
 
 export const MoviesByGenre = () => {
   const [genreMovies, setGenreMovies] = useState([])

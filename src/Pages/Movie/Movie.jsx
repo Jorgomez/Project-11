@@ -2,8 +2,9 @@ import React, { useEffect, useState } from 'react'
 import './Movie.css'
 import { useParams } from 'react-router-dom'
 import { MovieTemplate } from '../../Components/MovieTemplate/MovieTemplate'
-import { Loading } from '../../Components/Loading/lOADING.JSX'
+
 import { fetchGenerator } from '../../utils/API/fetchGenerator'
+import { Loading } from '../../Components/Loading/Loading'
 
 export const Movie = () => {
   const [movie, setMovie] = useState()
