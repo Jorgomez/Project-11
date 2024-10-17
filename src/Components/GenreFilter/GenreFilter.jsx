@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 
 import './GenreFilter.css'
 import { fetchGenerator } from '../../utils/API/fetchGenerator'
+import { Toggle } from '../../utils/Functions/Toogle'
 export const GenreFilter = ({ opened, genreRef }) => {
   const [genres, setGenres] = useState([])
 

@@ -21,6 +21,8 @@ export const MoviesByGenre = () => {
     ).then((res) => {
       setGenreMovies(res.results), setLimit(res.total_pages), setLoading(false)
     })
+
+    window.scrollTo({ top: 0, behavior: 'smooth' })
   }, [page, genreId])
 
   useEffect(() => {

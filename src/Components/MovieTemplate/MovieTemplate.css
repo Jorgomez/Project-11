@@ -16,6 +16,14 @@
   width: fit-content;
   height: fit-content;
   height: 40%;
+  transition: transform 0.5s;
+}
+
+.imageContainer:hover {
+  transform: scale(1.5);
+  outline: 5px solid rgba(159, 136, 23, 0.391);
+  z-index: 4;
+  background-color: black;
 }
 
 .imageContainer {

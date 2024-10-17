@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from 'react'
 import './Header.css'
 import { NavLink } from 'react-router-dom'
 import { GenreFilter } from '../GenreFilter/GenreFilter'
+
 export const Header = () => {
   const [opened, setOpened] = useState(false)
   const genreRef = useRef(null)

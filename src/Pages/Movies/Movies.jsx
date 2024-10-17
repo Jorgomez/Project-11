@@ -21,6 +21,7 @@ export const Movies = () => {
       setLimit(res.total_pages)
       setLoading(false)
     })
+    window.scrollTo({ top: 0, behavior: 'smooth' })
   }, [page])
 
   return (

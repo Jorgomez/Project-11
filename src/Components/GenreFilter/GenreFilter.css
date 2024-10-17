@@ -4,7 +4,7 @@
   top: 10svh;
   right: 0;
   display: none;
-  position: absolute;
+  position: fixed;
   background-color: var(--rtc-color-4);
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
